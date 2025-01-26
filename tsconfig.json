@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "*": ["node_modules/*"]
+      },
+      "strict": true
+    },
+    "include": ["packages/*/src"],
+    "exclude": ["node_modules", "dist"]
+  }
+  
